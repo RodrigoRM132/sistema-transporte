@@ -1,0 +1,15 @@
+package com.sistema.rafael.usuario.dto;
+
+import com.sistema.rafael.usuario.Role;
+
+import lombok.Data;
+
+@Data
+public class RegisterRequest {
+
+    private String username;
+
+    private String password;
+
+    private Role role;
+}
